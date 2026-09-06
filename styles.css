@@ -1,3 +1,4 @@
+
 :root {
   --navy: #071426;
   --navy-2: #0b1f39;
@@ -646,5 +647,60 @@ footer p { max-width: 820px; }
     width: 178%;
     max-width: none;
     transform: translateX(-3%);
+  }
+}
+
+
+/* V2.1 mobile hero refinement */
+@media (max-width: 700px) {
+  .hero {
+    padding-top: 28px;
+  }
+
+  .official-brand-art {
+    width: 100%;
+    margin: 0 auto 22px;
+    border-radius: 12px;
+  }
+
+  .official-brand-art img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transform: none;
+    object-fit: contain;
+  }
+
+  .hero-stars {
+    display: none;
+  }
+
+  .hero .eyebrow {
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+
+  .hero-title {
+    display: none;
+  }
+
+  .hero-copy {
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .hero-actions {
+    gap: 10px;
+    margin-top: 0;
+  }
+
+  .hero-actions .btn {
+    min-height: 52px;
+  }
+
+  .contract-card {
+    margin-top: 20px;
   }
 }
